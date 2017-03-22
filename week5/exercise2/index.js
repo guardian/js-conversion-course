@@ -1,1 +1,2 @@
-require("babel-core").transform(require("./make-dir"));
+require('babel-register');
+require('./make-dir');
