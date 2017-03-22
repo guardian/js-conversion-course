@@ -33,12 +33,12 @@ You can add this to the `scripts` section of your `package.json`:
 
 ```
 "scripts": {
-    "make": "mkdirp"
+    "make-dir": "mkdirp"
 }
 ```
 
 This allows you to run scripts in a friendlier way:
 
 ```
-$ npm run make my-new-folder
+$ npm run make-dir my-new-folder
 ```
