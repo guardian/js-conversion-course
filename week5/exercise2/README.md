@@ -10,13 +10,7 @@ managing them sucks.
 $ npm install yargs --save
 ```
 
-Create a script file:
-
-```
-$ touch index.js
-```
-
-In `index.js`:
+In `make-dir.js`:
 
 ```js
 const args = require('yargs').argv._;
