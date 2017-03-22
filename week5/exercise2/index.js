@@ -1,2 +1,2 @@
 require('babel-register');
-require('./make-dir');
+require('./src/index');

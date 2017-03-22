@@ -21,6 +21,12 @@ $ npm install mkdirp --save
 This will save the `mkdirp` library to the `dependencies` section of your `package.json`.
 It will install the library and all of its dependencies in the `node_modules` directory.
 
+If you delete `node_modules`, you can recreate it again by running:
+
+```
+$ npm install
+```
+
 You can now run the `mkdirp` CLI from the command line:
 
 ```
