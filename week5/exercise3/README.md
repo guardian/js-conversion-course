@@ -11,3 +11,11 @@ environment:
 
 We're going to look at Webpack.
 
+## Setup
+
+Take a look in `package.json` to familiarise yourself with this project's dependencies. Now install them:
+
+```
+$ npm install
+```
+
