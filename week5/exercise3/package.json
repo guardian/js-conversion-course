@@ -1,0 +1,12 @@
+{
+  "name": "exercise3",
+  "version": "1.0.0",
+  "description": "The ES6 module syntax is a useful way to import external dependencies into a module, guaranteeing that all our scripts are loaded in the correct order. However it is not natively supported in browsers. To get around this, there are a  number of build tools that allow us to **bundle** our JavaScript modules so that they can be consumed within a browser  environment:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
