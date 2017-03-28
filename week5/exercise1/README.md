@@ -48,3 +48,6 @@ This allows you to run scripts in a friendlier way:
 ```
 $ npm run make-dir my-new-folder
 ```
+
+If you're curious about NPM and want to learn more, check out the [How to 
+NPM](https://github.com/workshopper/how-to-npm) workshop.
