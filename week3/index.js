@@ -1,1 +1,1 @@
-console.log('Week 2 - JavaScript in the browser');
+console.log('Week 3 - JavaScript in the browser');
