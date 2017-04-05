@@ -1,5 +1,16 @@
 # Week 2 - JavaScript in the browser
 
+## Setup
+
+To help with the exercises in this course, please run the following:
+
+```bash
+$ npm install
+$ npm start
+```
+
+Navigate to [`http://localhost:8080`](http://localhost:8080) in your favourite browser.
+
 ## DOM API
 
 The best resource for DOM API documentation is the [MDN 
@@ -33,7 +44,6 @@ selector. This method lives on an element not the document, so it returns elemen
 
 ### Exercise 1
 
-- Open `index.html` from the directory in your favourite browser
 - Open the developer tools and navigate to the Console tab
 - In the console, write JavaScript that performs the following...
 
