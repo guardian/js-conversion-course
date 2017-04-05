@@ -1,4 +1,4 @@
-// Global by default
+// ES5: var
 
 function f() {
 	var a = 3;
