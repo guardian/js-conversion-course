@@ -44,19 +44,26 @@ var x = null;
 //
 // Undefined
 //
+// Like Unit in Scala
 // Has one value
 var x;
 console.log(x === undefined);
 
-function(y) {
+function f(y) {
 	console.log(y === undefined);
 }
+
+f();
+
+// Functions which don't return anything return undefined
 
 var obj = {};
 console.log(obj.youHaveNotSetMeYet === undefined);
 
 // But beware!
 console.log(youNeverEvenDefinedMe === undefined);
+// typeof
+// but not in ES6??
 
 
 //
