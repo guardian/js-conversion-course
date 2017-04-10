@@ -8,31 +8,54 @@ var y = false;
 // Truthy & falsy
 // In a context where a boolean is expected (e.g. an if statement) JS will type coerce to Boolean
 // It does this by considering these false:
-if (0) { console.log("ain't gonna happen") }
-if ('') { console.log("ain't gonna happen") }
-if (null) { console.log("ain't gonna happen") }
-if (undefined) { console.log("ain't gonna happen") }
-if (NaN) { console.log("ain't gonna happen") }
+if (0) {
+    console.log("ain't gonna happen")
+}
+if ('') {
+    console.log("ain't gonna happen")
+}
+if (null) {
+    console.log("ain't gonna happen")
+}
+if (undefined) {
+    console.log("ain't gonna happen")
+}
+if (NaN) {
+    console.log("ain't gonna happen")
+}
 
 // and obviously
-if (false) { console.log("ain't gonna happen") }
+if (false) {
+    console.log("ain't gonna happen")
+}
 
 // Everything else is truthy
-if (true)
-if ({})
-if ([])
-if (42)
-if ("foo")
-if (new Date())
-if (-42)
-if (3.14)
-if (-3.14)
-if (Infinity)
-if (-Infinity)
+if (true) {
+}
+if ({}) {
+}
+if ([]) {
+}
+if (42) {
+}
+if ("foo") {
+}
+if (new Date()) {
+}
+if (-42) {
+}
+if (3.14) {
+}
+if (-3.14) {
+}
+if (Infinity) {
+}
+if (-Infinity) {
+}
 
 // You can force this type coercion in other contexts by doing !!
 function isNonZero(x) {
-	return !!x;
+    return !!x;
 }
 
 //
@@ -50,7 +73,7 @@ var x;
 console.log(x === undefined);
 
 function f(y) {
-	console.log(y === undefined);
+    console.log(y === undefined);
 }
 
 f();

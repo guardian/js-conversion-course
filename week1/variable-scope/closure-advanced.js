@@ -1,12 +1,16 @@
 x = 3;
 
 function getObj() {
-	let x = 3;
+    let x = 3;
 
-	return {
-		incrementX() { x++ },
-		getX() { return x }
-	}
+    return {
+        incrementX() {
+            x++
+        },
+        getX() {
+            return x
+        }
+    }
 }
 
 const o = getObj();
