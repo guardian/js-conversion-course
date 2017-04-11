@@ -3,6 +3,9 @@
 // What's the issue?
 // How to fix it?
 
+// TASK: try dividing positive & negative numbers by 0
+// TASK: try diving a number by a string. What about adding to a string?
+
 (3.4393).toFixed(2);
 
 var fourDecimalPlaces = 3.4393;
