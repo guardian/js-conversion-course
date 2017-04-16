@@ -10,3 +10,6 @@
   - An object (this includes functions & arrays)
   
 ## Creating objects
+- Object literal syntax (`{}`)
+- `Object.create()`
+- Constructor functions
