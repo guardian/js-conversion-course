@@ -12,4 +12,17 @@
 ## Creating objects
 - Object literal syntax (`{}`)
 - `Object.create()`
-- Constructor functions
+- Constructor functions (save detail on this for next week)
+
+## Getting/setting object properties
+- In the object literal
+- With dot notation
+- With square brackets notation
+
+## Enumerating object properties
+- `Object.keys`
+- `for ... in`
+
+## Exercises
+- Recursively clone an object
+- Create object. Try `.toString()`. Inspect `.__proto__` in Chrome. Compare with `Object.prototype`
