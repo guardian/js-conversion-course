@@ -84,6 +84,22 @@ Open `index.js`. Add code that performs the following:
 1) Create an `li` element with the class `item`. Set the inner HTML to be "My new element". Append it as a child of the 
 list with the ID `modifiers`.
 2) Select elements with the class `item`. They should be children of the element with the ID `modifier`. Loop through
-the elements, setting their background colour to `hotpink`
+the elements, setting their `backgroundColor` to `hotpink`
 3) Create an `input` element with a `type` attribute of `checkbox`. Insert it before the text of the final element in 
 the `modifiers` list. Set the state of the element to `checked`.
+
+### `classList`
+
+The [`classList` API](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList) makes updating classes on DOM
+elements much easier. You can `add`, `remove` or `toggle` classes on an element by calling methods of the same name.
+You can also check whether the `classList` on an element `contains` a particular class.
+
+### Exercise 3
+
+Open `index.js`. Add code that modifies child elements of the element with the ID "classlist":
+
+1) Add the class "classlist-item" to each child
+2) Remove the "classlist-item" class from the first element with the "item" class
+3) Toggle the "classlist-item" on each child
+4) Loop through the elements under the element with the ID "classlist". For each element that has the "classlist-item" 
+class, set the `fontWeight` of the element to `bold`
