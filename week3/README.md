@@ -19,8 +19,8 @@ use a particular method, googling `"method name" +MDN` is usually a good strateg
 
 ### Element getters
 
-Element getters live on the global `document` object, that provides an interface to the
-DOM tree.
+[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element) getters live on the global `document` object, that 
+provides an interface to the DOM tree.
 
 - `document.getElementById(id)`: Returns a reference to the element by its ID
 - `document.getElementsByTagName(tagName)`: Returns an array-like structure containing elements of the passed tag name
@@ -67,5 +67,20 @@ method.
 
 - `element.innerHTML = "<h1>hello</h1>"`: overwrite the HTML content of an element
 - `element.style.color = "#ff0000"`: update the style of an element
-- `element.setAttribute(attributeName, value)`: update an attribute on an element
+- `element.setAttribute(attributeName, value)`: update an attribute on an element. Note you can retrieve the value of an
+attribute on an element using `element.getAttribute(attributeName)`.
+- `document.createElement("div")`: create a div element. This is not automatically appended to the DOM.
+- `element.appendChild(childElement)`: append a child element to this element
 
+You can find the documentation for a bunch more [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element) 
+methods (and the [Node](https://developer.mozilla.org/en-US/docs/Web/API/Node) interface which Element implements) on 
+the MDN website.
+
+### Exercise 2
+
+Open `index.js`. Add code that performs the following:
+
+1) Select elements with the class `item`. They should be children of the element with the ID `modifier`. Loop through
+the elements, setting their background colour to `hotpink`
+2) Create an `li` element with the class `item`. Set the inner HTML to be "My new element". Append it as a child of the 
+list with the ID `modifiers`.
