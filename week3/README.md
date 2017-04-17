@@ -103,3 +103,31 @@ Open `index.js`. Add code that modifies child elements of the element with the I
 3) Toggle the "classlist-item" on each child
 4) Loop through the elements under the element with the ID "classlist". For each element that has the "classlist-item" 
 class, set the `fontWeight` of the element to `bold`
+
+### Fetch
+
+The [fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) allows us to make AJAX calls to 
+fetch resources natively in JavaScript. It is a relatively new addition to JavaScript so it is [not yet supported by all 
+browsers](http://caniuse.com/#search=fetch).
+
+```js
+var options = {
+    method: 'GET',
+
+};
+
+fetch('some.json', options)
+    .then(resp => {
+        return resp.json();
+    })
+    .then(body => {
+        console.log(body);
+    });
+```
+
+### Exercise 4
+
+Open `index.js`. Add code that performs the following:
+
+1) Fetch data from `data.json`. Populate the text field with the ID "year" with the contents of the `year` property in
+the fetched JSON.
