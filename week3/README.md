@@ -71,6 +71,7 @@ method.
 attribute on an element using `element.getAttribute(attributeName)`.
 - `document.createElement("div")`: create a div element. This is not automatically appended to the DOM.
 - `element.appendChild(childElement)`: append a child element to this element
+- `element.checked = true`: update the state of a checkable element (i.e. a checkbox or radio button)
 
 You can find the documentation for a bunch more [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element) 
 methods (and the [Node](https://developer.mozilla.org/en-US/docs/Web/API/Node) interface which Element implements) on 
@@ -80,7 +81,9 @@ the MDN website.
 
 Open `index.js`. Add code that performs the following:
 
-1) Select elements with the class `item`. They should be children of the element with the ID `modifier`. Loop through
-the elements, setting their background colour to `hotpink`
-2) Create an `li` element with the class `item`. Set the inner HTML to be "My new element". Append it as a child of the 
+1) Create an `li` element with the class `item`. Set the inner HTML to be "My new element". Append it as a child of the 
 list with the ID `modifiers`.
+2) Select elements with the class `item`. They should be children of the element with the ID `modifier`. Loop through
+the elements, setting their background colour to `hotpink`
+3) Create an `input` element with a `type` attribute of `checkbox`. Insert it before the text of the final element in 
+the `modifiers` list. Set the state of the element to `checked`.
