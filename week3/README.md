@@ -31,7 +31,7 @@ passed class name
 
 You can use a CSS-like syntax to access elements. Examples of CSS selectors:
 
-- `li`: matches `li` elements
+- `li`: matches `<li>` elements
 - `#my-id`: matches elements with the ID `my-id`
 - `.my-class`: matches elements with the class `my-class`
 - `.my-class .my-subclass`: matches elements with the class `my-subclass` that have an ancestor with the class 
@@ -71,7 +71,10 @@ method.
 attribute on an element using `element.getAttribute(attributeName)`.
 - `document.createElement("div")`: create a div element. This is not automatically appended to the DOM.
 - `element.appendChild(childElement)`: append a child element to this element
+- `element.value = "hello"`: set the value of an input field such as a text field
 - `element.checked = true`: update the state of a checkable element (i.e. a checkbox or radio button)
+- `element.selected = true`: set the `selected` attribute of an `<option>` element to `true`, to make it appear as the
+currently selected option in its parent `<select>` element.
 
 You can find the documentation for a bunch more [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element) 
 methods (and the [Node](https://developer.mozilla.org/en-US/docs/Web/API/Node) interface which Element implements) on 
@@ -81,12 +84,13 @@ the MDN website.
 
 Open `index.js`. Add code that performs the following:
 
-1) Create an `li` element with the class `item`. Set the inner HTML to be "My new element". Append it as a child of the 
+1) Create an `<li>` element with the class `item`. Set the inner HTML to be "My new element". Append it as a child of the 
 list with the ID `modifiers`.
 2) Select elements with the class `item`. They should be children of the element with the ID `modifier`. Loop through
 the elements, setting their `backgroundColor` to `hotpink`
 3) Create an `input` element with a `type` attribute of `checkbox`. Insert it before the text of the final element in 
 the `modifiers` list. Set the state of the element to `checked`.
+4) Select the `<option>` with the value `javascript` in the `<select>` element with the ID `language`
 
 ### `classList`
 
@@ -129,5 +133,7 @@ fetch('some.json', options)
 
 Open `index.js`. Add code that performs the following:
 
-1) Fetch data from `data.json`. Populate the text field with the ID "year" with the contents of the `year` property in
-the fetched JSON.
+1) Fetch data from `data.json`. Populate the vaue of the text field with the ID "year" with the contents of the `year` 
+property in the fetched JSON.
+2) Also add an `<option>` element to the `<select>` element with the ID "country" for each entry in the `countries` 
+property of the same fetched JSON.

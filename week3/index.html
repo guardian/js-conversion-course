@@ -24,6 +24,14 @@
         <li class="item">element.innerHTML</li>
         <li class="item">element.style</li>
         <li class="item">element.setAttribute(attributeName, value)</li>
+        <li class="item">
+            <label for="language">Language: </label>
+            <select id="language">
+                <option value="scala">Scala</option>
+                <option value="javascript">JavaScript</option>
+                <option value="ocaml">OCaml</option>
+            </select>
+        </li>
     </ul>
 
     <h3 class="section-heading">classList</h3>
@@ -36,7 +44,9 @@
 
     <h3 class="section-heading">Fetch</h3>
     <form id="fetch-form">
-        <label for="year">Year: </label><input id="year" type="text">
+        <label for="year">Year: </label><input id="year" type="text"><br>
+        <label for="country">Country: </label>
+        <select id="country"></select>
     </form>
 
     <script src="index.js"></script>
