@@ -1,11 +1,6 @@
 const obj = {
     a: 'hello',
-    b: 'world',
-    sayHello: function() {
-        console.log('Hi, thanks for calling');
-    },
-    isMonday: false,
-    howManyBeans: 5
+    b: 'world'
 };
 
 // There are two ways to directly access properties on an object
