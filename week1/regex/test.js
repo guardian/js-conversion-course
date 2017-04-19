@@ -4,3 +4,5 @@ var barStr = '#bar#';
 
 console.log(regex.test(fooStr));
 console.log(regex.test(barStr));
+
+var r = new RegExp('foo', 'g');
