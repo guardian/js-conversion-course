@@ -11,14 +11,14 @@ function Developer(name) {
 
 // To use a function as a constructor, call it with the `new` keyword
 
-var alice = new Developer('Alice');
+const alice = new Developer('Alice');
 
 console.log('This Developer is called ' + alice.name);
 console.log('Her favourite drink is ' + alice.drink);
 
 // the resulting object behaves just like a normal object, so we can assign / reassign properties
 
-var mallory = new Developer('Mallory');
+const mallory = new Developer('Mallory');
 
 // We can reassign properties assigned to `this` in the constructor
 mallory.drink = 'tea';
@@ -43,7 +43,7 @@ function JavaScriptDeveloper(name) {
 
 JavaScriptDeveloper.prototype = Object.create(Developer.prototype);
 
-var bob = new JavaScriptDeveloper('Bob');
+const bob = new JavaScriptDeveloper('Bob');
 
 // We can access the properties assigned to `this` in the constructor
 console.log('This Developer is called ' + bob.name);
