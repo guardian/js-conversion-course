@@ -1,6 +1,11 @@
-var obj = {
+const obj = {
     a: 'hello',
-    b: 'world'
+    b: 'world',
+    sayHello: function() {
+        console.log('Hi, thanks for calling');
+    },
+    isMonday: false,
+    howManyBeans: 5
 };
 
 // There are two ways to directly access properties on an object
@@ -34,9 +39,9 @@ console.log('========');
 
 console.log('Enumerating keys:');
 
-var keys = Object.keys(obj);
+const keys = Object.keys(obj);
 
-for (var i = 0; i < keys.length; i++) {
+for (let i = 0; i < keys.length; i++) {
     console.log(keys[i]);
 }
 
@@ -46,6 +51,6 @@ console.log('========');
 
 console.log('Looping over properties:');
 
-for (var prop in obj) {
+for (let prop in obj) {
     console.log(prop + ': ' + obj[prop]);
 }
