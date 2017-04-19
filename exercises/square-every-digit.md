@@ -1,7 +1,17 @@
-# Description
+From https://www.codewars.com/kata/square-every-digit/javascript
 
-Welcome. In this kata, you are asked to square every digit of a number.
+## Description
 
-For example, if we run 9119 through the function, 811181 will come out.
+Write a function that will square every digit of a number and assemble the resulting digits into a single number.
 
-Note: The function accepts an integer and returns an integer
+## Examples
+
+```javascript
+squareDigits(9119) // should return 811181, as a number
+```
+
+### JS Knowledge
+- Strings
+- Numbers
+- Arrays
+- Type coercion
