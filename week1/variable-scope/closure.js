@@ -1,4 +1,4 @@
-x = 2;
+arr = 2;
 
 function outer() {
     // What if we remove the var here?
