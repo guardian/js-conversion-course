@@ -1,7 +1,7 @@
 From https://www.codewars.com/kata/vector-class/javascript
 
 ## CodePen
-https://codepen.io/joelochlann/pen/PmKozr?editors=0010
+https://codepen.io/joelochlann/pen/PmKozr?editors=0012
 
 ## Description
 
