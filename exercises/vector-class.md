@@ -19,9 +19,8 @@ If you try to add, subtract, or dot two vectors with different lengths, you must
 
 Also provide:
 
-a `toString` method, so that using the vectors from above, `a.toString() === '(1,2,3)'`
-an `equals` function, so that two vectors who have the same components are equal
-The test cases will utilize the user-provided equals method.
+- a `toString` method, so that using the vectors from above, `a.toString() === '(1,2,3)'`
+- an `equals` function, so that two vectors who have the same components are equal. The test cases will utilize the user-provided equals method.
 
 ### JS Knowledge
 - Constructors and prototypes
