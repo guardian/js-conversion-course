@@ -1,5 +1,8 @@
 From https://www.codewars.com/kata/vector-class/javascript
 
+## CodePen
+https://codepen.io/joelochlann/pen/PmKozr?editors=0010
+
 ## Description
 
 Create a Vector object that supports addition, subtraction, dot products, and norms. So, for example:
