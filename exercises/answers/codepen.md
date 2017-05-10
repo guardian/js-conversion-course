@@ -1,0 +1,5 @@
+- reverse: https://codepen.io/joelochlann/pen/wdyxNE?editors=0012
+- splitString: https://codepen.io/joelochlann/pen/WjMKLL?editors=0012
+- squareDigits: https://codepen.io/joelochlann/pen/dWdjJO?editors=0012
+- Vector, prototype: https://codepen.io/joelochlann/pen/rmJZee?editors=0012
+- Vector, class: https://codepen.io/joelochlann/pen/xdYJgb?editors=0002
