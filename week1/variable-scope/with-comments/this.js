@@ -7,7 +7,7 @@ function g() {
   return f(100);
 }
 
-console.log(f()); // NaN, because on its own `f` has no `this.x`
+console.log(f(5)); // NaN, because on its own `f` has no `this.x`
 console.log(g()); // 500, because `f` inherts `g`'s context (accessible as `this`)
 
 
