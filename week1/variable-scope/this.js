@@ -7,7 +7,7 @@ function g() {
   return f(100);
 }
 
-console.log(f()); 
+console.log(f(5)); 
 console.log(g()); 
 
 
