@@ -11,13 +11,13 @@ console.log(f(5));
 console.log(g()); 
 
 
-const mult5 = f.bind({ x: 5 }); 
+const h = f.bind({ x: 5 }); 
 
-console.log(mult5(2));
+console.log(h(2));
 
-const h = f.bind({ x: 5 }, 10);
+const i = f.bind({ x: 5 }, 10);
 
-console.log(h()); 
+console.log(i()); 
 
 console.log(f.call({ x: 5 }, 3)); 
 
