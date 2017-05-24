@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Week 3 - JavaScript in the browser</title>
+</head>
+<body>
+    <h1 class="heading">JavaScript in the browser</h1>
+
+    <h2 class="section-heading">Element getters</h2>
+	<ul id="element-getters">
+		<li class="item">document.getElementById(id)</li>
+		<li class="item">document.getElementsByTagName(tagName)</li>
+		<li class="item">document.getElementsByClassName(className)</li>
+	</ul>
+
+    <h2 class="section-heading">Selection</h2>
+    <ul id="selection">
+        <li class="item">document.querySelector(selector)</li>
+        <li class="item">element.querySelectorAll(selector)</li>
+    </ul>
+
+    <h2 class="section-heading">Modifying elements</h2>
+    <ul id="modifiers">
+        <li class="item">element.innerHTML</li>
+        <li class="item">element.style</li>
+        <li class="item">element.setAttribute(attributeName, value)</li>
+        <li class="item">
+            <label for="language">Language: </label>
+            <select id="language">
+                <option value="scala">Scala</option>
+                <option value="javascript">JavaScript</option>
+                <option value="ocaml">OCaml</option>
+            </select>
+        </li>
+    </ul>
+
+    <h3 class="section-heading">classList</h3>
+    <ul id="classlist">
+        <li class="item">element.classList.add</li>
+        <li class="item">element.classList.remove</li>
+        <li class="item">element.classList.toggle</li>
+        <li class="item">element.classList.contains</li>
+    </ul>
+
+    <h3 class="section-heading">Fetch</h3>
+    <form id="fetch-form">
+        <label for="year">Year: </label><input id="year" type="text"><br>
+        <label for="country">Country: </label>
+        <select id="country"></select>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>
