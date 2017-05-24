@@ -1,4 +1,4 @@
-JavaScript Language Fundamentals
+# JavaScript Language Fundamentals
 
 ### 1. Variables and scope
 - `var`, `let`, `const`
