@@ -9,7 +9,7 @@ function g() {
 }
 
 function h() {
-	console.log(arr);
+	console.log(a);
 }
 
 f();

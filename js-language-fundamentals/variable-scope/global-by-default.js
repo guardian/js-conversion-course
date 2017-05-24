@@ -1,15 +1,15 @@
 // Global by default
 
 function f() {
-	arr = 3;
+	a = 3;
 }
 
 function g() {
-	arr = 4;
+	a = 4;
 }
 
 function h() {
-	console.log(arr);
+	console.log(a);
 }
 
 f();

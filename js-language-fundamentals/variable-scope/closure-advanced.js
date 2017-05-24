@@ -1,4 +1,4 @@
-arr = 3;
+x = 3;
 
 function getObj() {
     let x = 3;
