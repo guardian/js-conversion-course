@@ -1,6 +1,0 @@
-(3.4393).toFixed(2);
-
-var fourDecimalPlaces = 3.4393;
-fourDecimalPlaces.toFixed(2);
-
-console.log(fourDecimalPlaces);
