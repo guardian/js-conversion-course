@@ -1,4 +1,4 @@
-# Week 3 - JavaScript in the browser
+# JavaScript in the browser
 
 ## Setup
 
