@@ -1,8 +1,10 @@
+# About NPM
+[NPM](https://www.npmjs.org) can refer to both:
+- an online repository of open-source JS projects (somewhat like Maven Central)
+- a command line package management tool, bundled with Node, for interacting with said repository (a little bit like Maven or SBT)
+
+
 # Exercise 1 - Introducing NPM
-
-
-[NPM](https://www.npmjs.org) is Node's built-in package manager.
-
 The following command allows you to use NPM to manage dependencies:
 
 ```
